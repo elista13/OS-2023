@@ -1,0 +1,48 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  nano ex1.txt
+    4  grep *.gss /usr/bin | sort -r
+    5  grep *.gss ~/usr/bin | sort -r
+    6  grep *.gss /usr/bin | sort -r > ex1.txt
+    7  find /usr/bin -name *.gss | sort -r > ex1.txt
+    8  cat ex1.txt
+    9  find /usr/bin -name *.gss | sort -r > ~/week1/ex1.txt
+   10  cat ~/week1/ex1.txt
+   11  find /usr/bin -name "*.gss" | sort -r | -print
+   12  find /usr/bin -name "*.gss" | sort -r > ~/week1/ex1.txt
+   13  cat ex1.txt
+   14  find /usr/bin -name "*.gss" | sort -r > ex1.txt
+   15  cat ex1.txt
+   16  find /usr/bin -name "*.gss" -print
+   17  find /usr/bin/ -name "*gss" -print
+   18  find /usr/bin -name *gss* > ex1.txt
+   19  cat ex1.txt
+   20  nano ex1.txt
+   21  cd /usr/bin
+   22  ls
+   23  cd ~/week1/
+   24  cd /usr/bin
+   25  ls | grep "*gcc" | sort -r > ~/week1/ex1.txt
+   26  cd ~/week1
+   27  cat ex1.txt
+   28  nano ex1.txt
+   29  ls | grep "gcc" | sort -r > ~/week1/ex1.txt
+   30  cd /usr/bin
+   31  ls | grep "gcc" | sort -r > ~/week1/ex1.txt
+   32  cd ~/week1
+   33  cat ex1.txt
+   34  nano ex1.txt
+   35  find /usr/bin -name "gcc" | sort -r > ex1.txt
+   36  cat ex1.txt
+   37  nano ex1.txt
+   38  cat ex1.txt
+   39  find /usr/bin -name "ma" | sort -r > ex1.txt
+   40  cat ex1.txt
+   41  find /usr/bin -name "ma" | sort -r > ~/week1/ex1.txt
+   42  cat ~/week1/ex1.txt
+   43  cd /usr/bin
+   44  ls | grep "set" | sort -r > ~/week1/ex1.txt
+   45  cat ~/week1/ex1.txt
+   46  cd ~/week1
+   47  nano ex2.txt
+   48  history > ex2.txt
